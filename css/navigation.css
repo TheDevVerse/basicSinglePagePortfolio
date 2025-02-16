@@ -1,0 +1,73 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  height: 54px;
+  background: var(--navbar-bg-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo-items {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-logo-Text {
+  font-family: Archivo;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--logo-text-color);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: start;
+  border-radius: 6px; /* border-m */
+  cursor: pointer;
+  white-space: nowrap;
+  gap: 2rem;
+}
+
+.nav-link-text {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+.nav-link-text:hover {
+  color: var(--nav-link-hover-color);
+  transition: color 0.3s ease;
+}
+
+.selected-nav-link {
+  color: var(--selected-nav-link-color);
+  border-bottom: 2px solid var(--selected-nav-link-color);
+}
+
+/* Mobile phones */
+@media screen and (max-width: 767px) {
+  /* Hamburger nav */
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktops */
+@media screen and (min-width: 1025px) {
+}

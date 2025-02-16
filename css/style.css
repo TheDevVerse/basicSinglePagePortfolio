@@ -1,0 +1,29 @@
+:root {
+  --navbar-bg-color: #333; /* Dark background for the navbar */
+  --logo-text-color: #fff; /* White color for the logo text */
+  --nav-link-color: #bbb; /* Light gray color for non-selected links */
+  --nav-link-hover-color: #fff; /* White color on hover */
+  --selected-nav-link-color: #fff; /* White color for the selected link */
+}
+
+/* Reset existing styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+.section {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
