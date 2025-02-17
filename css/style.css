@@ -5,7 +5,6 @@
   --nav-link-hover-color: #fff; /* White color on hover */
   --selected-nav-link-color: #fff; /* White color for the selected link */
 }
-
 /* Reset existing styles */
 * {
   margin: 0;
@@ -13,9 +12,30 @@
   box-sizing: border-box;
 }
 
+/* Hide scrollbars but keep content scrollable */
+body,
+html {
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for Webkit browsers */
+}
+
+/* For Firefox */
+body,
+html {
+  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
 body {
   background-color: var(--background);
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif,
+    'Helvetica, Arial, メイリオ, meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif',
+    'worksans-semibold, "work sans", sans-serif', "montserrat, sans-serif";
 }
+
 .section {
   padding-top: 100px;
   display: flex;

@@ -7,7 +7,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  
+
   padding: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -20,7 +20,7 @@
 }
 
 .nav-logo-Text {
-  font-family: Archivo;
+
   font-size: 28px;
   line-height: 42px;
   font-weight: 700;
@@ -41,7 +41,8 @@
 
 .nav-link-text {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  height: 100%;
+
   font-size: 14px;
   line-height: 22px;
   font-weight: 700;
